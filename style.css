@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background: blue;
+    background: rgb(53, 53, 66);
     color: white;
 
 }
@@ -14,9 +14,12 @@ body{
     margin: 12%;
     width: 90%;
     max-width: 700px;
+    border: 5px solid black;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
 }
 .display{
-    width: 100%;
+    width: 80%;
     margin:  50px;
     margin-bottom: 30px;
     background: white;
@@ -31,6 +34,7 @@ body{
 .container h1{
     font-weight: 500;
     font-size: 45px;
+    color: blue;
 
 }
 .container h1 span{
@@ -50,6 +54,7 @@ body{
     outline: 0;
     font-size: 24px;
     
+    
 }
 .container button img{
     width: 28px;
@@ -59,7 +64,7 @@ body{
 .container button{
     border: 0;
     outline: 0;
-    background: rgb(66, 66, 116);
+    background: rgb(10, 169, 58);
     font-size: 22px;
     font-weight: 300;
     display: flex;
